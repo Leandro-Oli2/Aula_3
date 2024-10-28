@@ -46,7 +46,7 @@ namespace aula3
                         }
                         else{
                             preco += preco * taxa;
-                            Console.WriteLine($"Ano {i}: Rendimeno de 10%, Capital: {preco:F2} ");
+                            Console.WriteLine($"Ano {i}: Rendimento de 10%, Capital: {preco:F2} ");
                         }
                     }
                     Console.WriteLine($"Total apos {tempoa} anos: R${preco:F2} ");
